@@ -70,7 +70,7 @@
 	 </combo>
 	 <space/>
 	 <link href="https://www.openstreetmap.org/user/Sowa1980" text="contacts Author" ru.text="контакты Автор"/>
-	 <link href="https://github.com/Sowa1980/Natural-disasters_disasters_danger_preset" text="github" ru.text="github"/>
+	 <link href="https://github.com/Sowa1980/Natural_disasters_disasters_danger_preset" text="github" ru.text="github"/>
     </item>
   </group>
 </presets> 
