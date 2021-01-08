@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+  author="Панкратов Александр Владимирович Sowa1980 https://www.openstreetmap.org/user/Sowa1980"
+  link=""
+  icon="danger_icon.svg"
+  
+  description="Natural disasters, disasters, danger."
+  ru.description="Стихийные бедствия, катастрофы, опасность"
+  
+  shortdescription="Natural disasters, disasters, danger."
+  ru.shortdescription="Стихийные бедствия, катастрофы, опасность"
+  
+  uk.description="Стихійні лиха, катастрофи, небезпека"
+  uk.shortdescription="Стихійні лиха, катастрофи, небезпека"
+  
+  be.description="Стыхійныя бедствы, катастрофы, небяспека"
+  be.shortdescription="Стыхійныя бедствы, катастрофы, небяспека"
+  
+  version="0.1_2021-01.07">
+                    
+  <group name="Annotation">
+    <item name="Стихийные бедствия, катастрофы, опасность" uk.name="Стихійні лиха, катастрофи, небезпека" be.name="Стихійні лиха, катастрофи, небезпека" type="relation,way,closedway,multipolygon,node" preset_name_label="true" icon="danger_icon.svg">
+	<space/>
+	 <combo key="natural_disaste_area" text="Стихийные бедствия катастрофы:" ru.text="Стихийные бедствия катастрофы" uk.text="Стихійні лиха катастрофи" be.text="Стыхійныя бедствы катастрофы" match="key">
+	 <list_entry value="yes" ru.display_value="да" uk.display_value="да" be.display_value="ды" />
+	 <list_entry value="flood" ru.display_value="паводок-наводнение" uk.display_value="паводок-повінь" be.display_value="паводка-паводка" />
+	 <list_entry value="fire" ru.display_value="пожар" uk.display_value="пожежа" be.display_value="пажар" />
+	 <list_entry value="earthquake" ru.display_value="землетрясение" uk.display_value="землетрус" be.display_value="землятрус" />
+	 <list_entry value="tornado" ru.display_value="смерч" uk.display_value="смерч" be.display_value="смерч" />
+	 <list_entry value="lava flow" ru.display_value="сход лавы" uk.display_value="сход лави" be.display_value="сход лавы" />
+	 <list_entry value="avalanche" ru.display_value="сход лавины" uk.display_value="схід лавини" be.display_value="сход лавіны" />
+	 </combo>
+	 <combo key="technogenic_disasters" text="Техногенные катастрофы" ru.text="Техногенные катастрофы" uk.text="Техногенні катастрофи" be.text="тэхнагенныя катастрофы" match="key">
+	 <list_entry value="yes" ru.display_value="да" uk.display_value="да" be.display_value="ды" />
+	 <list_entry value="radiation_zone" ru.display_value="радиационная зона" uk.display_value="радіаційна зона" be.display_value="радыяцыйная зона" />
+	 <list_entry value="chemical_contamination_zones" ru.display_value="зона химического заражения" uk.display_value="зона зараження" be.display_value="зона хімічнага заражэння" />
+	 </combo>
+	 <space/>
+	 <text key="disaster_date" text="Дата катастрофы:" ru.text="Дата катастрофы" uk.text="Дата катастрофи:" be.text="Дата катастрофы:" />
+	 <space/>
+	 <label text="Даты следует записывать в формате ISO 8601, т. е. ГГГГ-ММ-ДД." uk.text="Дати слід записувати у форматі ISO 8601, т. е. ГГГГ-ММ-ДД." be.text="Даты варта запісваць у фармаце ISO 8601, т. е. ГГГГ-ММ-ДД." de.text="Daten sollten im Format geschrieben werden ISO 8601, т. е. ГГГГ-ММ-ДД." fr.text="Les dates doivent être écrites dans le format ISO 8601, т. е. ГГГГ-ММ-ДД." it.text="Le date devono essere scritte nel formato ISO 8601, т. е. ГГГГ-ММ-ДД." pt.text="As datas devem ser escritas no formato ISO 8601, т. е. ГГГГ-ММ-ДД." />
+	 <space/>
+	 <combo key="whirlpool" text="Водоворот" ru.text="Водоворот" uk.text="Вир" be.text="Вір" match="key">
+	 <list_entry value="yes" ru.display_value="да" uk.display_value="да" be.display_value="ды" />
+	 <list_entry value="constant" ru.display_value="постоянный" uk.display_value="постійний" be.display_value="пастаянны" />
+	 <list_entry value="seasonal" ru.display_value="сезонный" uk.display_value="сезонний" be.display_value="сезонны" />
+	 <list_entry value="episodic" ru.display_value="эпизодический" uk.display_value="епізодичний" be.display_value="эпізадычны" />
+	 </combo>
+	 <combo key="burial" text="Захоронение" ru.text="Захоронение" uk.text="Поховання" be.text="Пахаванне" match="key">
+	 <list_entry value="radioactive" ru.display_value="радиоактивное захоронение" uk.display_value="радіоактивне поховання" be.display_value="радыёактыўнае пахаванне" />
+	 <list_entry value="chemical" ru.display_value="химическое захоронение" uk.display_value="хімічне поховання" be.display_value="хімічнае пахаванне" />
+	 <list_entry value="ccattle" ru.display_value="скотомогильник" uk.display_value="скотомогильник" be.display_value="жывёльныя могільнікі" />
+	 </combo>
+	 <combo key="quicksand" text="Зыбучий песок" ru.text="Зыбучий песок" uk.text="хиткі пісок" be.text="Зыбучыя пясок" match="key">
+	 <list_entry value="yes" ru.display_value="да" uk.display_value="да" be.display_value="ды" />
+	 </combo>
+	 <combo key="quarantine_zone" text="Карантинная зона" ru.text="Карантинная зона" uk.text="Карантинна зона" be.text="Карантынная зона" match="key">
+	 <list_entry value="yes" ru.display_value="да" uk.display_value="да" be.display_value="ды" />
+	 </combo>
+	 <combo key="sanitary zone" text="Санитарная зона" ru.text="Санитарная зона" uk.text="Cанітарна зона" be.text="Cанітарная зона" match="key">
+	 <list_entry value="yes" ru.display_value="да" uk.display_value="да" be.display_value="ды" />
+	 </combo>
+	 <combo key="epidemiological_cemetery" text="Эпидемиологические кладбище" ru.text="Эпидемиологические кладбище" uk.text="Епідеміологічні кладовищі" be.text="эпідэміялагічныя могілках" match="key">
+	 <list_entry value="yes" ru.display_value="да" uk.display_value="да" be.display_value="ды" />
+	 <list_entry value="people" ru.display_value="люди" uk.display_value="люди" be.display_value="людзі" />
+	 <list_entry value="animals" ru.display_value="животные" uk.display_value="тварини" be.display_value="жывёлы" />
+	 </combo>
+	 <combo key="Landslide" text="Оползень" ru.text="Оползень" uk.text="Зсув" be.text="Апоўзень" match="key">
+	 <list_entry value="yes" ru.display_value="да" uk.display_value="да" be.display_value="ды" />
+	 </combo>
+	 <space/>
+	 <link href="https://www.openstreetmap.org/user/Sowa1980" text="contacts Author" ru.text="контакты Автор"/>
+	 <link href="https://github.com/Sowa1980/Natural-disasters_disasters_danger_preset" text="github" ru.text="github"/>
+    </item>
+  </group>
+</presets> 
+
