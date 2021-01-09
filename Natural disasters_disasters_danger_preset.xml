@@ -16,7 +16,7 @@
   be.description="Стыхійныя бедствы, катастрофы, небяспека"
   be.shortdescription="Стыхійныя бедствы, катастрофы, небяспека"
   
-  version="0.1_2021-01.07">
+  version="0.2_2021-01.09">
                     
   <group name="Annotation">
     <item name="Стихийные бедствия, катастрофы, опасность" uk.name="Стихійні лиха, катастрофи, небезпека" be.name="Стихійні лиха, катастрофи, небезпека" type="relation,way,closedway,multipolygon,node" preset_name_label="true" icon="danger_icon.svg">
@@ -46,26 +46,32 @@
 	 <list_entry value="seasonal" ru.display_value="сезонный" uk.display_value="сезонний" be.display_value="сезонны" />
 	 <list_entry value="episodic" ru.display_value="эпизодический" uk.display_value="епізодичний" be.display_value="эпізадычны" />
 	 </combo>
-	 <combo key="burial" text="Захоронение" ru.text="Захоронение" uk.text="Поховання" be.text="Пахаванне" match="key">
-	 <list_entry value="radioactive" ru.display_value="радиоактивное захоронение" uk.display_value="радіоактивне поховання" be.display_value="радыёактыўнае пахаванне" />
-	 <list_entry value="chemical" ru.display_value="химическое захоронение" uk.display_value="хімічне поховання" be.display_value="хімічнае пахаванне" />
-	 <list_entry value="ccattle" ru.display_value="скотомогильник" uk.display_value="скотомогильник" be.display_value="жывёльныя могільнікі" />
+	 <combo key="Landslide" text="Оползень" ru.text="Оползень" uk.text="Зсув" be.text="Апоўзень" match="key">
+	 <list_entry value="yes" ru.display_value="да" uk.display_value="да" be.display_value="ды" />
 	 </combo>
 	 <combo key="quicksand" text="Зыбучий песок" ru.text="Зыбучий песок" uk.text="хиткі пісок" be.text="Зыбучыя пясок" match="key">
 	 <list_entry value="yes" ru.display_value="да" uk.display_value="да" be.display_value="ды" />
 	 </combo>
+	 <space/>
 	 <combo key="quarantine_zone" text="Карантинная зона" ru.text="Карантинная зона" uk.text="Карантинна зона" be.text="Карантынная зона" match="key">
 	 <list_entry value="yes" ru.display_value="да" uk.display_value="да" be.display_value="ды" />
 	 </combo>
 	 <combo key="sanitary zone" text="Санитарная зона" ru.text="Санитарная зона" uk.text="Cанітарна зона" be.text="Cанітарная зона" match="key">
 	 <list_entry value="yes" ru.display_value="да" uk.display_value="да" be.display_value="ды" />
 	 </combo>
+	 <space/>
+	 <combo key="burial" text="Захоронение" ru.text="Захоронение" uk.text="Поховання" be.text="Пахаванне" match="key">
+	 <list_entry value="radioactive" ru.display_value="радиоактивное захоронение" uk.display_value="радіоактивне поховання" be.display_value="радыёактыўнае пахаванне" />
+	 <list_entry value="chemical" ru.display_value="химическое захоронение" uk.display_value="хімічне поховання" be.display_value="хімічнае пахаванне" />
+	 <list_entry value="ccattle" ru.display_value="скотомогильник" uk.display_value="скотомогильник" be.display_value="жывёльныя могільнікі" />
+	 </combo>
 	 <combo key="epidemiological_cemetery" text="Эпидемиологические кладбище" ru.text="Эпидемиологические кладбище" uk.text="Епідеміологічні кладовищі" be.text="эпідэміялагічныя могілках" match="key">
 	 <list_entry value="yes" ru.display_value="да" uk.display_value="да" be.display_value="ды" />
 	 <list_entry value="people" ru.display_value="люди" uk.display_value="люди" be.display_value="людзі" />
 	 <list_entry value="animals" ru.display_value="животные" uk.display_value="тварини" be.display_value="жывёлы" />
 	 </combo>
-	 <combo key="Landslide" text="Оползень" ru.text="Оползень" uk.text="Зсув" be.text="Апоўзень" match="key">
+	 <space/>
+	 <combo key="Demolished_cleared_area" text="Снесённый расчищенный район" ru.text="Снесённый расчищенный район" uk.text="Знесений розчищений район" be.text="Знесены расчышчаны раён" match="key">
 	 <list_entry value="yes" ru.display_value="да" uk.display_value="да" be.display_value="ды" />
 	 </combo>
 	 <space/>
