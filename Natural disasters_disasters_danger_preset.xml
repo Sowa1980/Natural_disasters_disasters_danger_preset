@@ -16,7 +16,7 @@
   be.description="Стыхійныя бедствы, катастрофы, небяспека"
   be.shortdescription="Стыхійныя бедствы, катастрофы, небяспека"
   
-  version="0.3_2021-03.23">
+  version="0.3_2021-03-23">
                     
   <group name="Annotation">
     <item name="Стихийные бедствия, катастрофы, опасность" uk.name="Стихійні лиха, катастрофи, небезпека" be.name="Стихійні лиха, катастрофи, небезпека" type="relation,way,closedway,multipolygon,node" preset_name_label="true" icon="danger_icon.svg">
