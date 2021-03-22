@@ -1,4 +1,4 @@
-# ![icon](https://github.com/Sowa1980/Natural_disasters_disasters_danger_preset/blob/main/danger_icon.svg) Стихийные бедствия, катастрофы, опасность
+# ![icon](https://github.com/Sowa1980/Natural_disasters_disasters_danger_preset/blob/master/danger_icon.svg) Стихийные бедствия, катастрофы, опасность
 Набор заготовок тегов для [JOSM](https://josm.openstreetmap.de/), служит для указания Стихийных бедствий, катастроф, опасности.  [Посмотреть заготовку](https://github.com/Sowa1980/Natural-disasters_disasters_danger_preset/blob/main/danger_window_skrin_RU.jpg) 
 ### Языки локализации: 
 [Русский](.com/Sowa1980/Natural-disasters_disasters_danger_preset/blob/main/danger_window_skrin_RU.jpg), 
