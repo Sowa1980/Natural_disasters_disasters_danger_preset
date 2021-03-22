@@ -16,18 +16,18 @@
   be.description="Стыхійныя бедствы, катастрофы, небяспека"
   be.shortdescription="Стыхійныя бедствы, катастрофы, небяспека"
   
-  version="0.2_2021-01.09">
+  version="0.3_2021-03.23">
                     
   <group name="Annotation">
     <item name="Стихийные бедствия, катастрофы, опасность" uk.name="Стихійні лиха, катастрофи, небезпека" be.name="Стихійні лиха, катастрофи, небезпека" type="relation,way,closedway,multipolygon,node" preset_name_label="true" icon="danger_icon.svg">
 	<space/>
-	 <combo key="natural_disaste_area" text="Стихийные бедствия катастрофы:" ru.text="Стихийные бедствия катастрофы" uk.text="Стихійні лиха катастрофи" be.text="Стыхійныя бедствы катастрофы" match="key">
+	 <combo key="natural_disaster_area" text="Стихийные бедствия катастрофы:" ru.text="Стихийные бедствия катастрофы" uk.text="Стихійні лиха катастрофи" be.text="Стыхійныя бедствы катастрофы" match="key">
 	 <list_entry value="yes" ru.display_value="да" uk.display_value="да" be.display_value="ды" />
 	 <list_entry value="flood" ru.display_value="паводок-наводнение" uk.display_value="паводок-повінь" be.display_value="паводка-паводка" />
 	 <list_entry value="fire" ru.display_value="пожар" uk.display_value="пожежа" be.display_value="пажар" />
 	 <list_entry value="earthquake" ru.display_value="землетрясение" uk.display_value="землетрус" be.display_value="землятрус" />
 	 <list_entry value="tornado" ru.display_value="смерч" uk.display_value="смерч" be.display_value="смерч" />
-	 <list_entry value="lava flow" ru.display_value="сход лавы" uk.display_value="сход лави" be.display_value="сход лавы" />
+	 <list_entry value="lava_flow" ru.display_value="сход лавы" uk.display_value="сход лави" be.display_value="сход лавы" />
 	 <list_entry value="avalanche" ru.display_value="сход лавины" uk.display_value="схід лавини" be.display_value="сход лавіны" />
 	 </combo>
 	 <combo key="technogenic_disasters" text="Техногенные катастрофы" ru.text="Техногенные катастрофы" uk.text="Техногенні катастрофи" be.text="тэхнагенныя катастрофы" match="key">
@@ -46,7 +46,7 @@
 	 <list_entry value="seasonal" ru.display_value="сезонный" uk.display_value="сезонний" be.display_value="сезонны" />
 	 <list_entry value="episodic" ru.display_value="эпизодический" uk.display_value="епізодичний" be.display_value="эпізадычны" />
 	 </combo>
-	 <combo key="Landslide" text="Оползень" ru.text="Оползень" uk.text="Зсув" be.text="Апоўзень" match="key">
+	 <combo key="landslide" text="Оползень" ru.text="Оползень" uk.text="Зсув" be.text="Апоўзень" match="key">
 	 <list_entry value="yes" ru.display_value="да" uk.display_value="да" be.display_value="ды" />
 	 </combo>
 	 <combo key="quicksand" text="Зыбучий песок" ru.text="Зыбучий песок" uk.text="хиткі пісок" be.text="Зыбучыя пясок" match="key">
@@ -56,7 +56,7 @@
 	 <combo key="quarantine_zone" text="Карантинная зона" ru.text="Карантинная зона" uk.text="Карантинна зона" be.text="Карантынная зона" match="key">
 	 <list_entry value="yes" ru.display_value="да" uk.display_value="да" be.display_value="ды" />
 	 </combo>
-	 <combo key="sanitary zone" text="Санитарная зона" ru.text="Санитарная зона" uk.text="Cанітарна зона" be.text="Cанітарная зона" match="key">
+	 <combo key="sanitary_zone" text="Санитарная зона" ru.text="Санитарная зона" uk.text="Cанітарна зона" be.text="Cанітарная зона" match="key">
 	 <list_entry value="yes" ru.display_value="да" uk.display_value="да" be.display_value="ды" />
 	 </combo>
 	 <space/>
@@ -71,7 +71,7 @@
 	 <list_entry value="animals" ru.display_value="животные" uk.display_value="тварини" be.display_value="жывёлы" />
 	 </combo>
 	 <space/>
-	 <combo key="Demolished_cleared_area" text="Снесённый расчищенный район" ru.text="Снесённый расчищенный район" uk.text="Знесений розчищений район" be.text="Знесены расчышчаны раён" match="key">
+	 <combo key="demolished_cleared_area" text="Снесённый расчищенный район" ru.text="Снесённый расчищенный район" uk.text="Знесений розчищений район" be.text="Знесены расчышчаны раён" match="key">
 	 <list_entry value="yes" ru.display_value="да" uk.display_value="да" be.display_value="ды" />
 	 </combo>
 	 <space/>
